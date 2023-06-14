@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1 {
+    margin: 20px;
+}
+
+.board {
+    margin: auto;
+    width: 450px;
+    height: 450px;
+    display: grid;
+    box-shadow: 0px 0px 10px 0px;
+}
+
+button {
+    margin: 15px 5px 0px;
+    padding: 7px 15px;
+    border-radius: 10px;
+    border: 0px;
+    box-shadow:rgb(49, 49, 49) 0px 4px 5px 0px;
+    background-color: rgb(155, 155, 155);
+    color: white;
+}
+
+.black:hover {
+    color: white;
+    background-color: black;
+}
+
+.random:hover {
+    background: linear-gradient(90deg, red, yellow, green, blue);
+    color: rgb(15, 15, 15);
+    font-size: bold;
+}
+.white:hover {
+    background-color: white;
+    color: black;
+}
+.grey {
+    color:  rgb(121, 132, 193);
+    background-color: white;
+}
+
+.grey:hover {
+    background-color:  rgb(121, 132, 193);
+    color: white;
+}
+
+input {
+    border: 0;
+}
+
+.size:hover {
+    color: grey;
+    background-color:
+}
+
+.mode {
+    margin: 10px 0;
+}

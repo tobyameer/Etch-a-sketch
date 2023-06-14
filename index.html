@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sketch Pad</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="flex-container">
+        <div class="title"><h1>Sketch Pad</h1></div>
+        <div class="mode">Status: Not Coloring</div>
+        <div class="content">
+            <div class="board"></div> 
+            <div class="buttons">
+                <button class="black" onclick="changeColor('black')">Black</button>
+                <button class="random" onclick="changeColor('random')">Random</button>
+                <button class="white" onclick="changeColor('white')">Eraser</button>
+                <button class="grey" onclick="resetBoard()">Reset</button>
+            </div>
+            <input type="text" placeholder="size of board" value="16" onchange="changeSize(this.value)">
+            <button class="size">Set Size</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
